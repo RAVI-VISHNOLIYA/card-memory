@@ -3,7 +3,7 @@ import React, { useRef, useState, useEffect } from "react";
 const Context = React.createContext();
 
 function ContextProvider(props) {
-  const [name, setName] = useState("vikash");
+  const [name, setName] = useState("Ravi");
   const [grid, setGrid] = useState([]);
   const [visible, setVisible] = useState([
     [false, false, false, false],
